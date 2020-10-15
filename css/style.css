@@ -14,11 +14,16 @@ header {
 
 a {
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .container {
   margin: auto;
-  width: 80%;
+  padding: 0 10%;
+  background-image: url(../img/banner_header.png);
+  background-position: 115% 110%;
+  background-size: 58%;
+  background-repeat: no-repeat;
 }
 
 .nav::after {
@@ -48,7 +53,6 @@ a {
 }
 
 .menu li a {
-  text-decoration: none;
   color: white;
   height: 15px;
   font-size: 71%;
@@ -76,4 +80,29 @@ a {
 .btn-green {
   background-color: #7CBB02;
   padding: 8px 10px;
+}
+
+.jumbotron {
+  width:100%;
+  height: 490px;
+  position: relative;
+}
+
+.jumbotron-title h1 {
+  position: absolute;
+  width: 50%;
+  text-align: left;
+  top: 44%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 3.1em;
+  font-weight: 500;
+}
+
+.btn-large {
+  position: absolute;
+  bottom: 125px;
+  padding: 21px 18px;
+  color: white;
+  font-size: 0.9em;
 }
