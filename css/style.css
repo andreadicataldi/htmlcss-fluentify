@@ -106,3 +106,22 @@ a {
   color: white;
   font-size: 0.9em;
 }
+
+.middle {
+  text-align: center;
+  margin: auto;
+  background-color: #D3D3D3
+}
+
+.middle h2 {
+  padding-top: 38px;
+  font-weight: 500;
+  font-size: 1.6em;
+}
+
+.middle p {
+  color: grey;
+  font-size: 1.1em;
+  padding-top: 13px;
+  padding-bottom: 38px;
+}
